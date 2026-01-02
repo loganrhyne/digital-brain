@@ -114,10 +114,13 @@ def collect_all_decisions(repo_root: Path) -> list[dict]:
         decisions = extract_decisions_from_note(path)
         all_decisions.extend(decisions)
 
-    # Sort by date (most recent first), then by title
+    # Sort by date (most recent first), then by source title (alphabetically)
+    # This ensures decisions from the same source are adjacent
     all_decisions.sort(
-        key=lambda d: (d["date"] or "9999-99-99", d["source_note"]["title"]),
-        reverse=True
+        key=lambda d: (
+            -(int(d["date"].replace("-", "")) if d["date"] and d["date"].replace("-", "").isdigit() else 0),
+            d["source_note"]["title"]
+        )
     )
 
     return all_decisions
