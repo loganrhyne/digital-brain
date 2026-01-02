@@ -13,3 +13,4 @@ title: Books Index
 
 ## Entries
 - [Building a Second Brain](../books/building-a-second-brain.md) — book-2026-01-building-a-second-brain — draft
+- [Mumblecusser: And Other Poems](../books/mumblecusser--rdohrj3v.md) — book-2026-01-mumblecusser — draft

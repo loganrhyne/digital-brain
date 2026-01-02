@@ -93,6 +93,10 @@ def build_index(repo_root: Path, note_type: str, index_path: Path) -> None:
         title = "Recipes Index"
         index_id = "index-recipes"
         tags = "[index, recipes]"
+    elif note_type == "poetry":
+        title = "Poetry Index"
+        index_id = "index-poetry"
+        tags = "[index, poetry]"
     else:
         raise ValueError(f"Unsupported note type: {note_type}")
 
@@ -138,6 +142,7 @@ def main() -> int:
     build_index(repo_root, "concept", indices_dir / "concepts.md")
     build_index(repo_root, "book", indices_dir / "books.md")
     build_index(repo_root, "recipe", indices_dir / "recipes.md")
+    build_index(repo_root, "poetry", indices_dir / "poetry.md")
     print("Indices rebuilt.")
     return 0
 
