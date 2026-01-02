@@ -17,6 +17,17 @@ From *Mumblecusser: And Other Poems*[^1]
 
 ## Text
 
+We will live with
+our outrage the way
+a river lives with
+its rocks, shaping
+and being shaped.
+You are water, my love;
+you are water to me,
+quiet and patient and strong.
+And cutting, over time,
+through every smug
+motherfucking cliff.
 
 ## Observations
 
