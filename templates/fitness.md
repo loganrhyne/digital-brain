@@ -1,21 +1,19 @@
 ---
 id: "{{id}}"
-type: template
+type: fitness
 status: draft
-tags: [template, book]
+tags: [fitness, "{{domain}}"]
 created: "{{created}}"
 updated: "{{updated}}"
 visibility: private
 title: "{{title}}"
-author: "{{author}}"
-published: "{{published}}"
-template_for: book
 ---
 
 # {{title}}
 
 ## Observations
-- [definition] {{definition}}
-- [claim] {{claim}}
-- [question] {{question}}
 - [decision] {date: {{date}}} {{decision}}
+- [question] {{question}}
+
+## Notes
+{{notes}}

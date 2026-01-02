@@ -148,6 +148,11 @@ def main() -> int:
     build_index(repo_root, "recipe", indices_dir / "recipes.md")
     build_index(repo_root, "poetry", indices_dir / "poetry.md")
     build_index(repo_root, "media", indices_dir / "media.md")
+
+    # Import and run decision extractor
+    from extract_decisions import build_decision_index
+    build_decision_index(repo_root, indices_dir / "decisions.md")
+
     print("Indices rebuilt.")
     return 0
 

@@ -16,3 +16,4 @@ template_for: concept
 - [definition] {{definition}}
 - [claim] {{claim}}
 - [question] {{question}}
+- [decision] {date: {{date}}} {{decision}}

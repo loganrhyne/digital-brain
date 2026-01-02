@@ -21,6 +21,7 @@ template_for: media
 - [summary] {{summary}}
 - [key-point] {{key_point}}
 - [question] {{question}}
+- [decision] {date: {{date}}} {{decision}}
 
 ## Metadata
 - **Type**: {{media_type}}

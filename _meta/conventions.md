@@ -19,6 +19,36 @@ These conventions define required structure and formatting for the digital-brain
 - Substantive notes include an Observations section with typed bullets.
 - Relationships are encoded as footnote JSON objects validated by `_meta/relations.schema.json`.
 
+## Observation Metadata
+
+Observations support optional metadata using inline object notation. Metadata appears immediately after the observation tag and before the observation text.
+
+**Syntax**: `- [tag] {key: value, key2: value2} Observation text`
+
+**Example**:
+```markdown
+- [decision] {date: 2026-01-15} Chose Vanguard VTI over individual stocks
+- [question] What's the optimal rebalancing frequency?
+```
+
+**Guidelines**:
+- Metadata is optional - observations without metadata remain valid
+- Use curly braces `{}` to enclose metadata
+- Separate multiple fields with commas
+- Common metadata fields:
+  - `date`: ISO date (YYYY-MM-DD) for when the observation occurred
+  - Future: domain, confidence, priority, etc.
+- Metadata enables richer indexing and filtering without cluttering observation text
+
+**Common Observation Tags by Note Type**:
+- **concept**: `[definition]`, `[claim]`, `[question]`
+- **book**: `[definition]`, `[claim]`, `[question]`
+- **poetry**: `[interpretation]`, `[theme]`, `[question]`
+- **media**: `[summary]`, `[key-point]`, `[question]`, `[claim]`, `[application]`
+- **journal**: `[decision]`, `[todo]`
+- **recipe**: `[definition]`, `[claim]`, `[question]`
+- **Cross-cutting**: `[decision]` can appear in any note type for tracking decisions in context
+
 ## Fair Use Policy for Poetry Transcription
 
 Transcription of poems into this private digital brain repository constitutes fair use under U.S. copyright law (17 U.S.C. § 107) when:

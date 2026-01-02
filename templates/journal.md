@@ -13,5 +13,5 @@ template_for: journal
 # {{title}}
 
 ## Observations
-- [decision] {{decision}}
+- [decision] {date: {{date}}} {{decision}}
 - [todo] {{todo}}
