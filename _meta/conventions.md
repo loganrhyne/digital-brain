@@ -4,7 +4,7 @@ type: meta
 status: active
 tags: [conventions, governance]
 created: 2026-01-01
-updated: 2026-01-01
+updated: 2026-01-02
 visibility: private
 title: Repository Conventions
 ---
@@ -37,3 +37,36 @@ All four fair use factors support this use:
 4. **Market effect**: Private use does not diminish demand for the original
 
 Poetry notes should always include proper attribution (poet, source collection) via footnote relations.
+
+## Media Note Type
+
+The **media** note type is for podcasts, videos, articles, and other multimedia content with full transcripts. This enables deep searchability and reference across different types of content.
+
+### Required Fields
+- `media_type`: Type of media (podcast, video, article, etc.)
+- `source_url`: Original URL where content is available
+- `creator`: Creator/author/host name(s)
+- `published`: Publication date (ISO format)
+- `duration_minutes`: Duration for audio/video content (omit for articles)
+
+### Structure
+Media notes follow the standard structure with these sections:
+- **Observations**: Key points, summaries, questions using observation tags
+- **Metadata**: Quick reference for type, creator, date, duration, source
+- **Transcript**: Full verbatim transcript with speaker labels where applicable
+- **Notes**: Personal reflections, connections, and analysis
+- **Relations**: Links to related notes via footnote JSON
+
+### Observation Tags for Media
+- `[summary]` - Brief description of the content
+- `[key-point]` - Important insights or arguments
+- `[question]` - Questions raised by the content
+- `[claim]` - Specific claims made
+- `[application]` - Potential applications or implications
+
+### Fair Use for Transcripts
+Transcription of publicly available podcast/video content for personal knowledge management constitutes fair use when:
+- Content is freely accessible or lawfully accessed
+- Transcription is for personal study, reference, and note-taking
+- No public redistribution occurs
+- Attribution to original source is maintained
