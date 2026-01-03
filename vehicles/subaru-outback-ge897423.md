@@ -15,7 +15,7 @@ title: Subaru Outback 2.5i AWD (GE 897423)
 - [decision] {date: 2008-03-31} Vehicle first registered in Switzerland
 - [decision] {date: 2020-02-21} Owner registration updated in Geneva
 - [decision] {date: 2020-07-30} Front brake pads replaced at 159,574 km at Garage des Vollandes SA
-- [decision] {date: 2021-01-03} Switched insurance from Allianz Suisse (Coelvia) to Baloise
+- [decision] {date: 2025-03-15} Switched insurance to Baloise; circulation permit updated with Office de la circulation
 - [decision] {date: 2024-03-20} Four tires/wheels installed at Annemasse Pneus
 - [decision] {date: 2025-11-03} Missed scheduled inspection appointment; 70 CHF fee refunded
 - [decision] {date: 2025-12-08} Completed routine inspection at Office cantonal des véhicules
@@ -84,6 +84,8 @@ title: Subaru Outback 2.5i AWD (GE 897423)
 |-----------------------------|----------------------------|
 | **Policy Number**           | 040/8.236.197              |
 | **Status**                  | Active                     |
+| **Effective Date**          | March 15, 2025             |
+| **Circulation Permit**      | Updated with Office de la circulation |
 
 ### Previous Provider: Allianz Suisse (Coelvia)
 | Field                       | Value                      |
