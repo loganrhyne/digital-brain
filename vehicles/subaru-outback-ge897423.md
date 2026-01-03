@@ -20,6 +20,7 @@ title: Subaru Outback 2.5i AWD (GE 897423)
 - [event] {date: 2025-11-03} Missed scheduled inspection appointment; 70 CHF fee refunded
 - [event] {date: 2025-12-08} Completed routine inspection at Office cantonal des véhicules
 - [question] Follow-up required by 2026-01-16 for windshield repair/replacement verification (no appointment needed)
+- [decision] {date: 2025-12-27} Decided to complete 2026 registration, resolve all inspection issues by January 16, pay 2026 insurance, then work on selling or otherwise disposing of the vehicle
 
 ## Vehicle Information
 
