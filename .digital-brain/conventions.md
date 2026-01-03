@@ -86,9 +86,142 @@ Observations support optional metadata using inline object notation. Metadata ap
 - **book**: `[definition]`, `[claim]`, `[question]`
 - **poetry**: `[interpretation]`, `[theme]`, `[question]`
 - **media**: `[summary]`, `[key-point]`, `[question]`, `[claim]`, `[application]`
-- **journal**: `[decision]`, `[todo]`
+- **journal**: `[event]`, `[decision]`, `[todo]`
 - **recipe**: `[definition]`, `[claim]`, `[question]`
-- **Cross-cutting**: `[decision]` can appear in any note type for tracking decisions in context
+- **finance**: `[event]`, `[decision]`, `[question]`
+- **fitness**: `[event]`, `[decision]`, `[question]`
+- **Cross-cutting**: `[event]` and `[decision]` can appear in any note type for tracking chronology and choices
+
+## Observation Tag Semantics
+
+### `[event]` vs `[decision]`
+
+These two tags serve complementary but distinct purposes:
+
+**`[event]`** - Records factual occurrences, actions taken, or things that happened
+- Descriptive and chronological
+- Documents what was done or what occurred
+- No implication of choice between alternatives
+- Examples:
+  - `[event] {date: 2020-07-30} Front brake pads replaced at 159,574 km`
+  - `[event] {date: 2008-03-31} Vehicle first registered in Switzerland`
+  - `[event] {date: 2025-12-08} Completed routine inspection at Office cantonal des véhicules`
+
+**`[decision]`** - Records explicit choices made between meaningful alternatives
+- Implies agency and deliberation
+- Documents why one option was chosen over another
+- Represents strategic or tactical choices
+- Examples:
+  - `[decision] {date: 2025-03-15} Switched insurance to Baloise for better coverage`
+  - `[decision] {date: 2024-06-10} Chose synthetic oil over conventional for cold weather performance`
+  - `[decision] {date: 2025-01-15} Chose Vanguard VTI over individual stocks`
+
+**Relationship**: `[decision]` is semantically a subtype of `[event]` - all decisions are events, but not all events are decisions.
+
+**When unclear**: Ask "Were there meaningful alternatives I actively considered?"
+- Yes → `[decision]`
+- No/unclear → `[event]`
+
+**Gray areas**: Routine maintenance at a default shop is an `[event]`; actively choosing Shop A over Shop B is a `[decision]`.
+
+### `[claim]` - Assertions with Epistemic Humility
+
+**`[claim]`** represents assertions or propositions about how things are/were - factual statements acknowledged as beliefs based on evidence, not absolute truths.
+
+**Key characteristics:**
+- **Atemporal**: Describes properties, characteristics, or states (not time-bound actions)
+- **Descriptive**: "This is true about X" rather than "X happened at time T"
+- **Verifiable**: Could theoretically be checked or disputed
+- **Humble**: Acknowledged as current understanding, open to revision
+
+**Dated vs Undated Claims:**
+
+**Undated** - Timeless assertions (as far as known):
+```markdown
+- [claim] Water boils at 100°C at sea level
+- [claim] {equipment: "24kg kettlebell"} Used 24kg for this workout
+- [claim] TypeScript provides compile-time type safety
+```
+
+**Dated** - Captures what was believed/understood at a specific point in time:
+```markdown
+- [claim] {date: 2024-01-15} The housing market will correct significantly in 2024
+- [claim] {date: 2024-06-20} Updated view: Market shows resilience due to supply constraints
+- [claim] {date: 2025-01-10} Swiss mortgage rates expected to drop below 2%
+```
+
+**Epistemic Evolution Tracking:**
+
+Dated claims enable tracking how understanding changes over time:
+```markdown
+## Investment Philosophy Evolution
+
+- [claim] {date: 2023-01-01} Index funds sufficient for all investors
+- [claim] {date: 2024-06-15} Some tactical tilts can add value with proper research
+- [claim] {date: 2025-01-10} Factor investing worth considering for long-term portfolios
+```
+
+**Decision-Adjacent Usage:**
+
+Dated claims are particularly valuable around decisions to preserve decision-time context:
+```markdown
+## Mortgage Rate Decision
+
+- [claim] {date: 2025-03-01} Fixed rates at 2.5%, variable at 1.8%
+- [claim] {date: 2025-03-01} SNB expected to cut rates twice in 2025
+- [decision] {date: 2025-03-15} Chose variable rate based on rate outlook
+- [claim] {date: 2025-09-01} Rates actually increased; retrospectively fixed would have been better
+```
+
+This pattern:
+- Documents what you knew when making the decision
+- Avoids judging past decisions by future knowledge
+- Preserves reasoning in original context
+- Shows how beliefs evolved after the decision
+
+**Distinction from `[event]`:**
+```markdown
+# Temporal fact (what happened)
+- [event] {date: 2026-01-02} Completed kettlebell workout
+
+# Atemporal properties (characteristics of that workout)
+- [claim] {equipment: "24kg kettlebell", rounds: 3} Three rounds with 24kg kettlebell
+- [claim] {warmup: "5 min stair machine"} Started with cardio warmup
+```
+
+**Timeline Impact:** Dated claims appear in timeline.md, showing evolution of understanding chronologically alongside events and decisions.
+
+## Automatic Observation Indices
+
+The digital brain includes scripts to automatically extract and index specific observation types:
+
+### Timeline Index (`.digital-brain/indices/timeline.md`)
+Generated by: `extract_timeline.py`
+
+**What it includes**: All observations with explicit `{date: ...}` metadata, regardless of tag type
+- Includes `[event]`, `[decision]`, `[question]`, and any other observation type with a date
+- Provides comprehensive chronological view across entire knowledge base
+- Each entry shows: date, tag type, observation text, source note, and tags
+- Grouped by year-month for easy navigation
+
+**Usage**: Run `python3 .digital-brain/scripts/extract_timeline.py` to rebuild
+
+**Example entry**:
+```markdown
+- **2025-03-15** — `[decision]` — Switched insurance to Baloise; circulation permit updated — *From:* [Subaru Outback](../vehicles/subaru-outback.md) — *Tags:* vehicle, maintenance
+```
+
+### Decision Index (`.digital-brain/indices/decisions.md`)
+Generated by: `extract_decisions.py`
+
+**What it includes**: Only `[decision]` observations
+- Focused view of strategic choices and deliberate alternatives
+- Filtered subset of timeline showing only decision-making moments
+- Same format as timeline but decision-specific
+
+**Usage**: Run `python3 .digital-brain/scripts/extract_decisions.py` to rebuild
+
+**Relationship**: `decisions.md` ⊂ `timeline.md` (decisions are a filtered view of the timeline)
 
 ## Fair Use Policy for Poetry Transcription
 

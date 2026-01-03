@@ -12,7 +12,7 @@ title: Kettlebell Circuit at Big Sky Base
 # Kettlebell Circuit at Big Sky Base
 
 ## Observations
-- [claim] {date: 2026-01-02, time: "15:30", location: "The base, Big Sky, Montana"} Completed kettlebell circuit workout with comprehensive warmup
+- [event] {date: 2026-01-02, time: "15:30", location: "The base, Big Sky, Montana"} Completed kettlebell circuit workout with comprehensive warmup
 - [claim] {equipment: "24kg kettlebell", rounds: 3} Three rounds of circuit training with 24kg kettlebell
 - [claim] {cardio_warmup: "5 min stair machine level 12"} Started with cardiovascular warmup on stair machine
 - [claim] {dynamic_warmup: "4 exercises x 1 minute each"} Completed dynamic warmup routine preparing for main workout

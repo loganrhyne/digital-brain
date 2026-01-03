@@ -13,5 +13,6 @@ template_for: journal
 # {{title}}
 
 ## Observations
+- [event] {date: {{date}}} {{event}}
 - [decision] {date: {{date}}} {{decision}}
 - [todo] {{todo}}

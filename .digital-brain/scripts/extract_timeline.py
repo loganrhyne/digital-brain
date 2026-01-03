@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Extract [decision] observations from all notes and build a global decision index."""
+"""Extract all dated observations from all notes and build a global timeline index."""
 from __future__ import annotations
 
 import datetime
@@ -7,53 +7,54 @@ from pathlib import Path
 
 from observation_utils import (
     FRONTMATTER_BOUNDARY,
-    collect_all_observations,
+    collect_all_dated_observations,
     load_existing_created,
 )
 
 
-def build_decision_index(repo_root: Path, index_path: Path) -> None:
-    """Build the decision index file."""
+def build_timeline_index(repo_root: Path, index_path: Path) -> None:
+    """Build the timeline index file."""
     today = datetime.date.today().isoformat()
     created = load_existing_created(index_path) or today
 
-    decisions = collect_all_observations(repo_root, "decision")
+    observations = collect_all_dated_observations(repo_root)
 
     lines: list[str] = [
         FRONTMATTER_BOUNDARY,
-        "id: index-decisions",
+        "id: index-timeline",
         "type: index",
         "status: active",
-        "tags: [index, decisions]",
+        "tags: [index, timeline, events]",
         f"created: {created}",
         f"updated: {today}",
         "visibility: private",
-        "title: Decision Index",
+        "title: Timeline Index",
         FRONTMATTER_BOUNDARY,
         "",
-        "# Decision Index",
+        "# Timeline Index",
         "",
-        "Global index of all decisions tracked across the digital brain.",
+        "Chronological index of all dated observations tracked across the digital brain.",
         "",
     ]
 
-    if not decisions:
+    if not observations:
         lines.append("## Entries")
         lines.append("")
-        lines.append("No decisions recorded yet.")
+        lines.append("No dated observations recorded yet.")
     else:
         # Group by year-month for better organization
         current_period = None
 
-        for decision in decisions:
-            decision_date = decision["date"]
-            decision_text = decision["text"]
-            source = decision["source_note"]
+        for obs in observations:
+            obs_date = obs["date"]
+            obs_text = obs["text"]
+            obs_tag = obs["tag"]
+            source = obs["source_note"]
 
             # Extract year-month for grouping
-            if decision_date:
+            if obs_date:
                 try:
-                    period = decision_date[:7]  # YYYY-MM
+                    period = obs_date[:7]  # YYYY-MM
                     if period != current_period:
                         current_period = period
                         lines.append(f"## {period}")
@@ -70,17 +71,20 @@ def build_decision_index(repo_root: Path, index_path: Path) -> None:
                     lines.append("## Undated")
                     lines.append("")
 
-            # Build the decision entry
+            # Build the observation entry
             rel_path = source["path"].relative_to(repo_root).as_posix()
             link = Path("..") / rel_path
 
-            # Format: **Date** — **Decision** — From [Note Title](path) — tags
+            # Format: **Date** — [tag] — **Observation** — From [Note Title](path) — tags
             entry_parts = []
 
-            if decision_date:
-                entry_parts.append(f"**{decision_date}**")
+            if obs_date:
+                entry_parts.append(f"**{obs_date}**")
 
-            entry_parts.append(decision_text)
+            # Include the observation tag type
+            entry_parts.append(f"`[{obs_tag}]`")
+
+            entry_parts.append(obs_text)
 
             entry_parts.append(f"*From:* [{source['title']}]({link.as_posix()})")
 
@@ -102,8 +106,8 @@ def main() -> int:
     indices_dir = repo_root / ".digital-brain" / "indices"
     indices_dir.mkdir(exist_ok=True)
 
-    build_decision_index(repo_root, indices_dir / "decisions.md")
-    print("Decision index built.")
+    build_timeline_index(repo_root, indices_dir / "timeline.md")
+    print("Timeline index built.")
     return 0
 
 
