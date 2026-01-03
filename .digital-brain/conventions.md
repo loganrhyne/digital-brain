@@ -86,9 +86,43 @@ Observations support optional metadata using inline object notation. Metadata ap
 - **book**: `[definition]`, `[claim]`, `[question]`
 - **poetry**: `[interpretation]`, `[theme]`, `[question]`
 - **media**: `[summary]`, `[key-point]`, `[question]`, `[claim]`, `[application]`
-- **journal**: `[decision]`, `[todo]`
+- **journal**: `[event]`, `[decision]`, `[todo]`
 - **recipe**: `[definition]`, `[claim]`, `[question]`
-- **Cross-cutting**: `[decision]` can appear in any note type for tracking decisions in context
+- **finance**: `[event]`, `[decision]`, `[question]`
+- **fitness**: `[event]`, `[decision]`, `[question]`
+- **Cross-cutting**: `[event]` and `[decision]` can appear in any note type for tracking chronology and choices
+
+## Observation Tag Semantics
+
+### `[event]` vs `[decision]`
+
+These two tags serve complementary but distinct purposes:
+
+**`[event]`** - Records factual occurrences, actions taken, or things that happened
+- Descriptive and chronological
+- Documents what was done or what occurred
+- No implication of choice between alternatives
+- Examples:
+  - `[event] {date: 2020-07-30} Front brake pads replaced at 159,574 km`
+  - `[event] {date: 2008-03-31} Vehicle first registered in Switzerland`
+  - `[event] {date: 2025-12-08} Completed routine inspection at Office cantonal des véhicules`
+
+**`[decision]`** - Records explicit choices made between meaningful alternatives
+- Implies agency and deliberation
+- Documents why one option was chosen over another
+- Represents strategic or tactical choices
+- Examples:
+  - `[decision] {date: 2025-03-15} Switched insurance to Baloise for better coverage`
+  - `[decision] {date: 2024-06-10} Chose synthetic oil over conventional for cold weather performance`
+  - `[decision] {date: 2025-01-15} Chose Vanguard VTI over individual stocks`
+
+**Relationship**: `[decision]` is semantically a subtype of `[event]` - all decisions are events, but not all events are decisions.
+
+**When unclear**: Ask "Were there meaningful alternatives I actively considered?"
+- Yes → `[decision]`
+- No/unclear → `[event]`
+
+**Gray areas**: Routine maintenance at a default shop is an `[event]`; actively choosing Shop A over Shop B is a `[decision]`.
 
 ## Fair Use Policy for Poetry Transcription
 

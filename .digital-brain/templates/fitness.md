@@ -12,6 +12,7 @@ title: "{{title}}"
 # {{title}}
 
 ## Observations
+- [event] {date: {{date}}} {{event}}
 - [decision] {date: {{date}}} {{decision}}
 - [question] {{question}}
 
