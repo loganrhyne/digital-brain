@@ -50,6 +50,9 @@ def parse_frontmatter(path: Path) -> dict | None:
 def collect_notes(repo_root: Path, note_type: str) -> list[dict]:
     notes: list[dict] = []
     for path in sorted(repo_root.rglob("*.md")):
+        # Skip the .digital-brain infrastructure directory
+        if ".digital-brain" in path.parts:
+            continue
         frontmatter = parse_frontmatter(path)
         if not frontmatter:
             continue

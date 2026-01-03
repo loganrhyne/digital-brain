@@ -116,6 +116,9 @@ def main() -> int:
 
     error_count = 0
     for path in sorted(repo_root.rglob("*.md")):
+        # Skip the .digital-brain infrastructure directory
+        if ".digital-brain" in path.parts:
+            continue
         lines = path.read_text(encoding="utf-8").splitlines()
         for start_line, json_text, balanced in iter_json_blocks(lines):
             if not balanced:
