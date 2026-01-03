@@ -4,7 +4,7 @@ type: index
 status: active
 tags: [index, concepts]
 created: 2026-01-01
-updated: 2026-01-02
+updated: 2026-01-03
 visibility: private
 title: Concepts Index
 ---

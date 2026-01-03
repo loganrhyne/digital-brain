@@ -1,0 +1,237 @@
+---
+id: index-recipes
+type: index
+status: active
+tags: [index, recipes]
+created: 2026-01-02
+updated: 2026-01-03
+visibility: private
+title: Recipes Index
+---
+
+# Recipes Index
+
+## Entries
+- [100% Whole Wheat Sandwich Bread](../recipes/100-percent-whole-wheat-sandwich-bread--1wy3-dr5.md) — recipe-100-percent-whole-wheat-sandwich-bread-1wy3-dr5 — draft
+- [40 Cloves and a Chicken](../recipes/40-cloves-and-a-chicken--1202n2oy.md) — recipe-40-cloves-and-a-chicken-1202n2oy — draft
+- [5-Minute Homemade Chili Oil Recipe (How to Make Chili Oil)](../recipes/5-minute-homemade-chili-oil-recipe-how-to-make-chili-oil--05d3ea18.md) — recipe-05d3ea18-75f1-4469-8bba-eac7758c7046 — draft
+- [Almond Bear Claws](../recipes/almond-bear-claws--1danxhag.md) — recipe-almond-bear-claws-1danxhag — draft
+- [Anzac Biscuits](../recipes/anzac-biscuits--1rjxnvi3.md) — recipe-anzac-biscuits-1rjxnvi3 — draft
+- [Apple and Pear Coffee Cake](../recipes/apple-and-pear-coffee-cake--192aguhu.md) — recipe-apple-and-pear-coffee-cake-192aguhu — draft
+- [Apple Crumble and Vanilla Ice Cream](../recipes/apple-crumble--1t4cisjf.md) — recipe-apple-crumble-1t4cisjf — draft
+- [Apple-Rhubarb Crisp](../recipes/apple-rhubarb-crisp--1j5k5p0c.md) — recipe-apple-rhubarb-crisp-1j5k5p0c — draft
+- [Aunt Catherine's Overnight Cinnamon Rolls](../recipes/aunt-catherines-overnight-cinnamon-rolls--1qxcr4vm.md) — recipe-aunt-catherines-overnight-cinnamon-rolls-1qxcr4vm — draft
+- [Aunt Maggie's Pecan Pie (+ CSO Tinkering)](../recipes/aunt-maggies-pecan-pie--10-pgj5z.md) — recipe-aunt-maggies-pecan-pie-10-pgj5z — draft
+- [Aunt Ruth's Iced Tea](../recipes/aunt-ruths-iced-tea--1gidenva.md) — recipe-aunt-ruths-iced-tea-1gidenva — draft
+- [Baby Meatballs Recipe](../recipes/baby-meatballs-recipe--f17946b2.md) — recipe-f17946b2-f684-4b2f-9110-f5687902eb0c — draft
+- [Bagels](../recipes/bagels--1cbktocq.md) — recipe-bagels-1cbktocq — draft
+- [Baked Eggplant Parmesan](../recipes/baked-eggplant-parmesan--1mkojfqa.md) — recipe-baked-eggplant-parmesan-1mkojfqa — draft
+- [Baked Shrimp in Tomato Feta Sauce](../recipes/baked-shrimp-in-tomato-feta-sauce--1qpzb_5m.md) — recipe-baked-shrimp-in-tomato-feta-sauce-1qpzb_5m — draft
+- [Banana Blueberry Muffins](../recipes/banana-blueberry-muffins--1qyi2rrt.md) — recipe-banana-blueberry-muffins-1qyi2rrt — draft
+- [Banana Bread](../recipes/banana-bread--132ay2md.md) — recipe-banana-bread-132ay2md — draft
+- [Barbecue Vegetable Salad](../recipes/barbecue-vegetable-salad--adf67e95.md) — recipe-adf67e95-009e-4e1b-8f01-1210f9a6c13c — draft
+- [Beef Bourguignon](../recipes/beef-bourguignon--1msoyhez.md) — recipe-beef-bourguignon-1msoyhez — draft
+- [Beef Stew](../recipes/beef-stew--1axlafo.md) — recipe-beef-stew-1axlafo — draft
+- [Beignets (Donuts)](../recipes/beignets-donuts--1bj3xysq.md) — recipe-beignets-donuts-1bj3xysq — draft
+- [Best Old-Fashioned Burgers](../recipes/best-old-fashioned-burgers--1bqninfn.md) — recipe-best-old-fashioned-burgers-1bqninfn — draft
+- [Best Shortbread](../recipes/best-shortbread--1iyvv7qk.md) — recipe-best-shortbread-1iyvv7qk — draft
+- [Betty Crocker Chocolate Icing](../recipes/betty-crocker-chocolate-icing--1oac4wfa.md) — recipe-betty-crocker-chocolate-icing-1oac4wfa — draft
+- [Big Chewy Oatmeal-Raisin Cookies](../recipes/big-chewy-oatmeal-raisin-cookies--1jet2mky.md) — recipe-big-chewy-oatmeal-raisin-cookies-1jet2mky — draft
+- [Blackberry tart recipe](../recipes/blackberry-tart-recipe--71657ff8.md) — recipe-71657ff8-b3ab-4404-a0ec-e057b0551069 — draft
+- [Blackstone Bone-in Pork Chops](../recipes/blackstone-bone-in-pork-chops--fe7cf650.md) — recipe-fe7cf650-a19c-45c6-9216-35ea57dd48ac — draft
+- [Blonde Brownies](../recipes/blonde-brownies--1hzl69eq.md) — recipe-blonde-brownies-1hzl69eq — draft
+- [Bok choy seasoned with soybean paste (Cheonggyeongchae](../recipes/bok-choy-seasoned-with-soybean-paste-cheonggyeongchae--a674c982.md) — recipe-a674c982-feac-4b61-a709-f5ebad872c58 — draft
+- [Brioche](../recipes/brioche--1dpx1ty4.md) — recipe-brioche-1dpx1ty4 — draft
+- [Broa (Portuguese Corn Bread)](../recipes/broa-portugese-corn-bread--1xjletrk.md) — recipe-broa-portugese-corn-bread-1xjletrk — draft
+- [Brown Caps with Walnuts and Blue Cheese on Tagliatelle](../recipes/brown-caps-with-walnuts-and-blue-cheese-on-tagliatelle--15brroa9.md) — recipe-brown-caps-with-walnuts-and-blue-cheese-on-tagliatelle-15brroa9 — draft
+- [Burgundy-style Beef Stew](../recipes/burgundy-style-beef-stew--1qyhjtcm.md) — recipe-burgundy-style-beef-stew-1qyhjtcm — draft
+- [Buttermilk Cluster Rolls](../recipes/buttermilk-cluster-rolls--1jcih7te.md) — recipe-buttermilk-cluster-rolls-1jcih7te — draft
+- [Cabbage Salad](../recipes/cabbage-salad--ed244674.md) — recipe-ed244674-b513-4e72-8109-4ba82da8d164 — draft
+- [Camp Stove Veggie Chili](../recipes/camp-stove-veggie-chili--1yqi03rs.md) — recipe-camp-stove-veggie-chili-1yqi03rs — draft
+- [Caramel Chocolate Pretzel Bark](../recipes/caramel-chocolate-pretzel-bark--1wfhqdyx.md) — recipe-caramel-chocolate-pretzel-bark-1wfhqdyx — draft
+- [Carmelita Bars](../recipes/carmelita-bars--1vp86lwf.md) — recipe-carmelita-bars-1vp86lwf — draft
+- [Carrot Cake](../recipes/carrot-cake--1tfhl_k4.md) — recipe-carrot-cake-1tfhl_k4 — draft
+- [Carrot Oatmeal Cookies](../recipes/carrot-oatmeal-cookies--1kl3sdbx.md) — recipe-carrot-oatmeal-cookies-1kl3sdbx — draft
+- [Chai Tea](../recipes/chai-tea--13pvckkn9.md) — recipe-chai-tea-13pvckkn9 — draft
+- [Cheesy Eggplant Bake](../recipes/cheesy-eggplant-bake--1rbnozh-.md) — recipe-cheesy-eggplant-bake-1rbnozh- — draft
+- [Chewy Chocolate Chip Cookies](../recipes/chewy-chocolate-chip-cookies--1845g0gx.md) — recipe-chewy-chocolate-chip-cookies-1845g0gx — draft
+- [Chewy Sugar Cookies](../recipes/chewy-sugar-cookies--1u7gmt0p.md) — recipe-chewy-sugar-cookies-1u7gmt0p — draft
+- [Chicken Florentine Pesto Pasta](../recipes/chicken-florentine-pesto-pasta--1_jrvxlf.md) — recipe-chicken-florentine-pesto-pasta-1_jrvxlf — draft
+- [Chicken Noodle Soup](../recipes/chicken-noodle-soup--1hyb8-nn.md) — recipe-chicken-noodle-soup-1hyb8-nn — draft
+- [Chicken Tikka Masala](../recipes/chicken-tikka-masala--1i-n_vpa.md) — recipe-chicken-tikka-masala-1i-n_vpa — draft
+- [Chili](../recipes/chili--1m6ymcid.md) — recipe-chili-1m6ymcid — draft
+- [Chocolate Chip Flying Saucers](../recipes/chocolate-chip-flying-saucers--1wgc7jf7.md) — recipe-chocolate-chip-flying-saucers-1wgc7jf7 — draft
+- [Chocolate Puddle Cookies](../recipes/chocolate-puddle-cookies--1pjfou5v.md) — recipe-chocolate-puddle-cookies-1pjfou5v — draft
+- [Chocolate Sauce](../recipes/chocolate-sauce--17_jwgit.md) — recipe-chocolate-sauce-17_jwgit — draft
+- [Classic Pico de Gallo](../recipes/classic-pico-de-gallo--3e0e81c4.md) — recipe-3e0e81c4-ae13-4c59-9e93-1200e7f547f9 — draft
+- [Corn Bread](../recipes/corn-bread--1ugbxnxu.md) — recipe-corn-bread-1ugbxnxu — draft
+- [Cottage Pudding Cake](../recipes/cottage-pudding-cake--1tli_hiv.md) — recipe-cottage-pudding-cake-1tli_hiv — draft
+- [Cranberry Sauce](../recipes/cranberry-sauce--1xqdnxy2.md) — recipe-cranberry-sauce-1xqdnxy2 — draft
+- [Cream Biscuits](../recipes/cream-biscuits--1s0phsjp.md) — recipe-cream-biscuits-1s0phsjp — draft
+- [Cream Scones](../recipes/cream-scones--1p-eipfw.md) — recipe-cream-scones-1p-eipfw — draft
+- [Crunchy Cabbage Slaw with Farro, Pecorino, and Dates](../recipes/crunchy-cabbage-slaw-with-farro-pecorino-and-dates--c7165ecb.md) — recipe-c7165ecb-b147-43a6-b6e4-49e004439a26 — draft
+- [Crunchy Greens With Carrot-Ginger Dressing](../recipes/crunchy-greens-with-carrot-ginger-dressing--0c02848b.md) — recipe-0c02848b-91d9-4a02-acf0-d2e677a2df29 — draft
+- [Cucumber Chicken Salad](../recipes/cucumber-chicken-salad--48ec20b1.md) — recipe-48ec20b1-dfb1-4aeb-bcf8-977b6d64f1e1 — draft
+- [Cucumber Salad](../recipes/cucumber-salad--289b0ff8.md) — recipe-289b0ff8-cca7-49e1-9065-b6594e0d81dd — draft
+- [Date Pinwheels](../recipes/date-pinwheels--1yze3gli.md) — recipe-date-pinwheels-1yze3gli — draft
+- [Deli-Style Rye](../recipes/deli-style-rye--154tybiy.md) — recipe-deli-style-rye-154tybiy — draft
+- [Dense and Firm Cheesecake](../recipes/dense-and-firm-cheesecake--1wp7m5nv.md) — recipe-dense-and-firm-cheesecake-1wp7m5nv — draft
+- [Dilly Beans](../recipes/dilly-beans--1ftrqpin.md) — recipe-dilly-beans-1ftrqpin — draft
+- [Easiest One Pot Lasagna](../recipes/easiest-one-pot-lasagna--e5eef2fe.md) — recipe-e5eef2fe-1700-474d-a6a1-264ce2304307 — draft
+- [Easy Homemade Lentil Tofu](../recipes/easy-homemade-lentil-tofu--5fbfb315.md) — recipe-5fbfb315-087e-4be7-9d10-7b8ec1974920 — draft
+- [Easy Vegetarian Bean Chili](../recipes/easy-vegetarian-bean-chili--1e9fmlzg.md) — recipe-easy-vegetarian-bean-chili-1e9fmlzg — draft
+- [Edna Mae's Sour Cream Pancakes](../recipes/edna-maes-sour-cream-pancakes--1x4mlpw5.md) — recipe-edna-maes-sour-cream-pancakes-1x4mlpw5 — draft
+- [Eggplant Green Curry](../recipes/eggplant-green-curry--1tqkgqwm.md) — recipe-eggplant-green-curry-1tqkgqwm — draft
+- [Eggplant Parmesan](../recipes/eggplant-parmesan--15dzd0vl.md) — recipe-eggplant-parmesan-15dzd0vl — draft
+- [Eggplant Parmigiana (Parmigiana di Melanzane)](../recipes/eggplant-parmigiana-parmigiana-di-melanzane--30bd2d5e.md) — recipe-30bd2d5e-c4c2-4b04-906f-ad2c103a674d — draft
+- [European Peasant Bread](../recipes/european-peasant-bread--15g4tie-.md) — recipe-european-peasant-bread-15g4tie- — draft
+- [Evans' Egg Nog](../recipes/evans-egg-nog--1b3euhwa.md) — recipe-evans-egg-nog-1b3euhwa — draft
+- [Fall Deliciousness Drink](../recipes/fall-deliciousness-drink--11dqvl1i.md) — recipe-fall-deliciousness-drink-11dqvl1i — draft
+- [Fettuccine Alfredo](../recipes/fettuccine-alfredo--18k7vres.md) — recipe-fettuccine-alfredo-18k7vres — draft
+- [Fish & Vegetable Curry](../recipes/fish-and-vegetable-curry--1vc_ndxw.md) — recipe-fish-and-vegetable-curry-1vc_ndxw — draft
+- [Freezer Biscuits](../recipes/freezer-biscuits--1g5fkkyi.md) — recipe-freezer-biscuits-1g5fkkyi — draft
+- [Fried Eggplant with Honey (Berenjenas Fritas con Miel)](../recipes/fried-eggplant-with-honey-berenjenas-fritas-con-miel--ef262722.md) — recipe-ef262722-5944-4a93-b37a-f82de9ef88f7 — draft
+- [Gingerbread](../recipes/gingerbread--1hhnrlrl.md) — recipe-gingerbread-1hhnrlrl — draft
+- [Goat's Cheese and Red Onion Tarts](../recipes/goats-cheese-and-red-onion-tarts--1hoc5ao7.md) — recipe-goats-cheese-and-red-onion-tarts-1hoc5ao7 — draft
+- [Grandmother's Banana Bread](../recipes/grandmothers-banana-bread--1fpj8sfp.md) — recipe-grandmothers-banana-bread-1fpj8sfp — draft
+- [Grandmother's Pound Cake](../recipes/grandmothers-pound-cake--1unrhdrp.md) — recipe-grandmothers-pound-cake-1unrhdrp — draft
+- [Grandmother's Refrigerator Cookies](../recipes/grandmothers-refrigerator-cookies--10fzze_4.md) — recipe-grandmothers-refrigerator-cookies-10fzze_4 — draft
+- [Green Bean Salad With Dill Pickles And Feta](../recipes/green-bean-salad-with-dill-pickles-and-feta--f0a908a7.md) — recipe-f0a908a7-a590-4f27-a1ab-6c9779eb110e — draft
+- [Greta's Bread Sticks](../recipes/gretas-bread-sticks--1olqu12s.md) — recipe-gretas-bread-sticks-1olqu12s — draft
+- [Greta's Kringle](../recipes/gretas-kringle--1davjwxe.md) — recipe-gretas-kringle-1davjwxe — draft
+- [Grilled Corn Panzanella](../recipes/grilled-corn-panzanella--46c6039a.md) — recipe-46c6039a-cf8c-4fb9-8861-c6207fc1af24 — draft
+- [Guillaume's Tiramisu](../recipes/guillaumes-tiramisu--1vk1c-bv.md) — recipe-guillaumes-tiramisu-1vk1c-bv — draft
+- [hasselback butternut squash with feta](../recipes/hasselback-butternut-squash-with-feta--38faa978.md) — recipe-38faa978-83f7-4e5c-b66b-ab4407bd3012 — draft
+- [Healthy Asparagus Quiche](../recipes/healthy-asparagus-quiche--bba2bb60.md) — recipe-bba2bb60-030f-4048-ae0c-678a60f714cd — draft
+- [Hearty Black Lentil & Rice Blend Khichdi (Instant Pot)](../recipes/hearty-black-lentil-rice-blend-khichdi-instant-pot--98cabf91.md) — recipe-98cabf91-5cd7-4135-a240-662f68b12ba1 — draft
+- [Hot Fudge Pudding Cake](../recipes/hot-fudge-pudding-cake--1bxxyc4c.md) — recipe-hot-fudge-pudding-cake-1bxxyc4c — draft
+- [Ice Box Bran Muffins](../recipes/ice-box-bran-muffins--1kktcfkg.md) — recipe-ice-box-bran-muffins-1kktcfkg — draft
+- [Instant Pot Black Beans (Perfect Beans Every Time!)](../recipes/instant-pot-black-beans-perfect-beans-every-time--72f2c8ce.md) — recipe-72f2c8ce-75d2-4e86-811e-78d13e6b6fb2 — draft
+- [Instant Pot Leftover Hambone Soup](../recipes/instant-pot-leftover-hambone-soup--781ceb8d.md) — recipe-781ceb8d-13da-434b-82f2-012ece622cb2 — draft
+- [Instant Pot Simple Potato Soup](../recipes/instant-pot-simple-potato-soup--5e141e38.md) — recipe-5e141e38-3ecc-4603-abef-4fff1123550b — draft
+- [Instant Pot Stew w/ Sausage and Quinoa (slow cooker option)](../recipes/instant-pot-stew-w-sausage-and-quinoa-slow-cooker-option--fe49d846.md) — recipe-fe49d846-088b-4761-a0ed-44a0feb22cc0 — draft
+- [Italian Semolina Bread](../recipes/italian-semolina-bread--16vppq2q.md) — recipe-italian-semolina-bread-16vppq2q — draft
+- [Kale and Quinoa Salad with Roasted Squash and Sweet Potatoes](../recipes/kale-and-quinoa-salad-with-roasted-squash-and-sweet-potatoes--694edcc0.md) — recipe-694edcc0-3518-4923-92bf-17f5302c9397 — draft
+- [Kat's Grandmother Mildred's Pot Roast](../recipes/kats-grandmother-mildreds-pot-roast--1peuhvef.md) — recipe-kats-grandmother-mildreds-pot-roast-1peuhvef — draft
+- [Lactation Cookies](../recipes/lactation-cookies--ab079fa3.md) — recipe-ab079fa3-ecf9-4a19-8619-d9bc5fbd3f7e — draft
+- [Lentil Soup](../recipes/lentil-soup--2370019a.md) — recipe-2370019a-bb60-481c-8a67-024d28f2c2bc — draft
+- [Light Whole Wheat Bread](../recipes/light-whole-wheat-bread--12-fwkfc.md) — recipe-light-whole-wheat-bread-12-fwkfc — draft
+- [Lori's Skillet Smashed Potato Recipe](../recipes/loris-skillet-smashed-potato-recipe--1fsnvg0o.md) — recipe-loris-skillet-smashed-potato-recipe-1fsnvg0o — draft
+- [Maddy's Mommy's Brownies](../recipes/maddys-mommys-brownies--11op0qsh.md) — recipe-maddys-mommys-brownies-11op0qsh — draft
+- [Make-Ahead Tortellini Salad with Marinated Artichokes and Feta](../recipes/make-ahead-tortellini-salad-with-marinated-artichokes-and-feta--c14bb580.md) — recipe-c14bb580-b346-42e2-971c-515ce7e1f636 — draft
+- [Malted Hot Chocolate](../recipes/malted-hot-chocolate--1dhzvxg7.md) — recipe-malted-hot-chocolate-1dhzvxg7 — draft
+- [Maple Pecan Ice Cream](../recipes/maple-pecan-ice-cream--1d_le3qf.md) — recipe-maple-pecan-ice-cream-1d_le3qf — draft
+- [Marianna's Peach Ice Cream](../recipes/mariannas-peach-ice-cream--1j_kbefh.md) — recipe-mariannas-peach-ice-cream-1j_kbefh — draft
+- [Marinated Chickpea and Feta Salad with Spring Veggies](../recipes/marinated-chickpea-and-feta-salad-with-spring-veggies--99632fef.md) — recipe-99632fef-c02d-46b6-b8b7-4d933d22a3c1 — draft
+- [Master Recipe (Basic Artisan Bread)](../recipes/master-recipe--1ilv_-mp.md) — recipe-master-recipe-1ilv_-mp — draft
+- [Meatloaf](../recipes/meatloaf--1ck_ovw1.md) — recipe-meatloaf-1ck_ovw1 — draft
+- [Mediterranean Tuna and White Bean Salad with Pesto Vinaigrette](../recipes/mediterranean-tuna-and-white-bean-salad-with-pesto-vinaigrette--c14ddd20.md) — recipe-c14ddd20-960a-41d8-b9aa-35526ddb709b — draft
+- [Minced Beef Stir Fry with Bokchoy](../recipes/minced-beef-stir-fry-with-bokchoy--ce03bf60.md) — recipe-ce03bf60-03ff-45ae-8e3b-e30fe593f0e8 — draft
+- [Miso Vegetables & Tofu](../recipes/miso-vegetables-and-tofu--1np6nhzp.md) — recipe-miso-vegetables-and-tofu-1np6nhzp — draft
+- [Mom's New York-Style Cheesecake](../recipes/moms-new-york-style-cheesecake--16goolf-.md) — recipe-moms-new-york-style-cheesecake-16goolf- — draft
+- [Moroccan Couscous Salad](../recipes/moroccan-couscous-salad--71f11814.md) — recipe-71f11814-d57a-4a97-81bd-06ac6b7ba0d0 — draft
+- [Mushroom Pesto with Parsley and Thyme](../recipes/mushroom-pesto-with-parsley-and-thyme--10za8yky.md) — recipe-mushroom-pesto-with-parsley-and-thyme-10za8yky — draft
+- [Naan](../recipes/naan--1g8krajn.md) — recipe-naan-1g8krajn — draft
+- [New York Cheesecake (Ruhlman Gourmet)](../recipes/new-york-cheesecake-ruhlman--1ikq2ikn.md) — recipe-new-york-cheesecake-ruhlman-1ikq2ikn — draft
+- [New York-Style Cheesecake (Cook's Illustrated)](../recipes/new-york-style-cheesecake-cooks-illustrated--1au6u9ov.md) — recipe-new-york-style-cheesecake-cooks-illustrated-1au6u9ov — draft
+- [Nikki's Healthy Cookie Recipe](../recipes/nikkis-healthy-cookies--1ugfeegy.md) — recipe-nikkis-healthy-cookies-1ugfeegy — draft
+- [No Bake Cookies](../recipes/no-bake-cookies--1cvp1k0d.md) — recipe-no-bake-cookies-1cvp1k0d — draft
+- [No-Bake Lactation Bites](../recipes/no-bake-lactation-bites--623d0c9a.md) — recipe-623d0c9a-fb22-4bb9-a235-3e3f88644ccd — draft
+- [No-Cook Spicy Tofu](../recipes/no-cook-spicy-tofu--b06397ac.md) — recipe-b06397ac-eca4-4c6f-acef-ba02a9e9d2ad — draft
+- [No-Noodle Lasagne](../recipes/no-noodle-lasagne--10wv6rbx.md) — recipe-no-noodle-lasagne-10wv6rbx — draft
+- [Norwegian Butter Cookies (Spritz)](../recipes/norwegian-butter-cookies--1jdijidje.md) — recipe-norwegian-butter-cookies-1jdijidje — draft
+- [Oatmeal Bread](../recipes/oatmeal-bread--1ofhy4_a.md) — recipe-oatmeal-bread-1ofhy4_a — draft
+- [Oatmeal Chocolate Chip Cookies](../recipes/oatmeal-chocolate-chip-cookies--1vxhe8m1.md) — recipe-oatmeal-chocolate-chip-cookies-1vxhe8m1 — draft
+- [Orange Honey Butter](../recipes/orange-honey-butter--1orunhal.md) — recipe-orange-honey-butter-1orunhal — draft
+- [Orange Miso Edamame Salad](../recipes/orange-miso-edamame-salad--7a313d36.md) — recipe-7a313d36-0354-4184-9743-2ef3686a51c6 — draft
+- [Original NESTLE TOLL HOUSE Chocolate Chip Cookies](../recipes/original-nestle-toll-house-chocolate-chip-cookies--6ca5667d.md) — recipe-6ca5667d-f654-4f7d-966c-6fbd786ed4ea — draft
+- [Oven Puffed Pancake](../recipes/oven-puffed-pancake--1gf5paxu.md) — recipe-oven-puffed-pancake-1gf5paxu — draft
+- [Oven Roasted Cauliflower with Tahini Sauce](../recipes/oven-roasted-cauliflower-with-tahini-sauce--c1e0920f.md) — recipe-c1e0920f-88f9-4ac6-a197-0bf931818a06 — draft
+- [Oven-Baked Cauliflower Steak](../recipes/oven-baked-cauliflower-steak--246aef57.md) — recipe-246aef57-215f-4096-8ce1-29f9388fd092 — draft
+- [Oven-Fried Chicken Breasts](../recipes/oven-fried-chicken-breasts--1tgbrnit.md) — recipe-oven-fried-chicken-breasts-1tgbrnit — draft
+- [Pad See Ew](../recipes/pad-see-ew--1p996o6y.md) — recipe-pad-see-ew-1p996o6y — draft
+- [Paleo Chilli](../recipes/paleo-chilli--1xs9roip.md) — recipe-paleo-chilli-1xs9roip — draft
+- [Pancakes (with Instant Mix)](../recipes/pancakes--1duocoxe.md) — recipe-pancakes-1duocoxe — draft
+- [Paneer Butter Masala Recipe](../recipes/paneer-butter-masala-recipe--af7d9ac8.md) — recipe-af7d9ac8-2fef-49ae-85ea-4e2ba58a3927 — draft
+- [Parmesan Chicken](../recipes/parmesan-chicken--1jfv4ivd.md) — recipe-parmesan-chicken-1jfv4ivd — draft
+- [Pasta Cream Sauce](../recipes/pasta-cream-sauce--344ea253.md) — recipe-344ea253-cdf4-41f4-9029-85244f1da7d4 — draft
+- [Peach & Pecan Scramble](../recipes/peach-and-pecan-scramble--1wcsbk0c.md) — recipe-peach-and-pecan-scramble-1wcsbk0c — draft
+- [Peach Crumble](../recipes/peach-crumble--1sjf642-.md) — recipe-peach-crumble-1sjf642- — draft
+- [Peanut Butter Banana Bites](../recipes/peanut-butter-banana-bites--d0d8b1e1.md) — recipe-d0d8b1e1-b6d4-4597-ae72-04c840b1f182 — draft
+- [Peanut Butter Chocolate Chip Cookies](../recipes/peanut-butter-chocolate-chip-cookies--1sikpnsr.md) — recipe-peanut-butter-chocolate-chip-cookies-1sikpnsr — draft
+- [Pear Salad with Balsamic and Walnuts](../recipes/pear-salad-with-balsamic-and-walnuts--23b31a7f.md) — recipe-23b31a7f-de72-448b-9e23-af6e3d219754 — draft
+- [Pesto](../recipes/pesto--1260xpbp.md) — recipe-pesto-1260xpbp — draft
+- [Pita](../recipes/pita--1latckni.md) — recipe-pita-1latckni — draft
+- [Pressure Cooker Smoky Lentil and Potato Soup](../recipes/pressure-cooker-smoky-lentil-and-potato-soup--db38ad5e.md) — recipe-db38ad5e-11c6-43fe-8da1-16ecbfbe0d67 — draft
+- [Pumpkin Biscuits](../recipes/pumpkin-biscuits--15jvzv7g.md) — recipe-pumpkin-biscuits-15jvzv7g — draft
+- [Quesadillas](../recipes/quesadillas--1dssq2wh.md) — recipe-quesadillas-1dssq2wh — draft
+- [Quick and Easy Cream Biscuits](../recipes/quick-and-easy-cream-biscuits--1b2siz8t.md) — recipe-quick-and-easy-cream-biscuits-1b2siz8t — draft
+- [Raisin-Walnut Bread](../recipes/raisin-walnut-bread--19c_0oj8.md) — recipe-raisin-walnut-bread-19c_0oj8 — draft
+- [Ratio - Doughs & Batters](../recipes/ratio-doughs-and-batters--1mhmxdta.md) — recipe-ratio-doughs-and-batters-1mhmxdta — draft
+- [Raw and Roasted Radicchio Salad with Sweet Potato, Manchego, and Crunchy Seeds](../recipes/raw-and-roasted-radicchio-salad-with-sweet-potato-manchego-and-crunchy-seeds--7976f8f2.md) — recipe-7976f8f2-d791-463f-a800-5332c686dee4 — draft
+- [Rebecca's Peach (or Strawberry) Ice Cream](../recipes/rebeccas-peach-or-strawberry-ice-cream--10v-nakd.md) — recipe-rebeccas-peach-or-strawberry-ice-cream-10v-nakd — draft
+- [Rebecca's Peach Pie](../recipes/rebeccas-peach-pie--1sgw8hun.md) — recipe-rebeccas-peach-pie-1sgw8hun — draft
+- [Rebecca's Six Three's Ice Cream](../recipes/rebeccas-six-threes-ice-cream--111pfyxx.md) — recipe-rebeccas-six-threes-ice-cream-111pfyxx — draft
+- [Recipe: Cold Lentil Salad with Cucumbers and Olives](../recipes/recipe-cold-lentil-salad-with-cucumbers-and-olives--23b0a88e.md) — recipe-23b0a88e-5f68-46c1-8c8c-eaa3b07eb884 — draft
+- [Recipe: Tofu and Broccoli Salad with Peanut Butter Dressing](../recipes/recipe-tofu-and-broccoli-salad-with-peanut-butter-dressing--e3419494.md) — recipe-e3419494-1a4e-40df-bef0-5f7ea230e68c — draft
+- [Red Cabbage Salad With Orange Vinaigrette](../recipes/red-cabbage-salad-with-orange-vinaigrette--0abd8c6e.md) — recipe-0abd8c6e-56ac-406c-83f8-ce3a9ef81e43 — draft
+- [Red Lentil Coconut Soup](../recipes/red-lentil-coconut-soup--1ibub9ij.md) — recipe-red-lentil-coconut-soup-1ibub9ij — draft
+- [Refrigerator Rolls](../recipes/refrigerator-rolls--1reygvq_.md) — recipe-refrigerator-rolls-1reygvq_ — draft
+- [Rigatoni with Roman Broccoli Sauce](../recipes/rigatoni-with-roman-broccoli-sauce--bfc54249.md) — recipe-bfc54249-3fc4-477c-9cfd-603532f03b5c — draft
+- [Roast Chicken](../recipes/roast-chicken--1con4dv8.md) — recipe-roast-chicken-1con4dv8 — draft
+- [Roast Potatoes](../recipes/roast-potatoes--1gw89vi1.md) — recipe-roast-potatoes-1gw89vi1 — draft
+- [Roasted aubergine salad](../recipes/roasted-aubergine-salad--c84f1cb4.md) — recipe-c84f1cb4-0ae4-477e-9382-39dbb75000af — draft
+- [Roasted Carrot and Avocado Salad](../recipes/roasted-carrot-and-avocado-salad--1oryjcou.md) — recipe-roasted-carrot-and-avocado-salad-1oryjcou — draft
+- [Roasted Cauliflower](../recipes/roasted-cauliflower--1cn39kne.md) — recipe-roasted-cauliflower-1cn39kne — draft
+- [Roasted Root Vegetables](../recipes/roasted-root-vegetables--10ollowz.md) — recipe-roasted-root-vegetables-10ollowz — draft
+- [Salmon Skewers with Garlic-Lemon Marinade](../recipes/salmon-skewers-with-garlic-lemon-marinade--ef0f3e4a.md) — recipe-ef0f3e4a-72a6-415d-bfe7-3426fced016d — draft
+- [Sausage, Spinach, Ricotta Stuffed Pasta Shells](../recipes/sausage-spinach-ricotta-stuffed-pasta-shells--1etsx9ek.md) — recipe-sausage-spinach-ricotta-stuffed-pasta-shells-1etsx9ek — draft
+- [Sauteed Endive With Balsamic Butter](../recipes/sauteed-endive-with-balsamic-butter--444ddf85.md) — recipe-444ddf85-6e96-4e79-b0a2-5db7ad5c401d — draft
+- [Savory Buttercup Squash Pie](../recipes/savory-buttercup-squash-pie--1orzgc2h.md) — recipe-savory-buttercup-squash-pie-1orzgc2h — draft
+- [Seafood \"Who Needs Rice\" Jambalaya](../recipes/seafood-who-needs-rice-jambalaya--1ebsfvre.md) — recipe-seafood-who-needs-rice-jambalaya-1ebsfvre — draft
+- [Shipa's Dal and Rice with Ginger and Green Chilies](../recipes/shipas-dal-and-rice-with-ginger-and-green-chilies--1isaw7q2.md) — recipe-shipas-dal-and-rice-with-ginger-and-green-chilies-1isaw7q2 — draft
+- [Simple Cauliflower Recipe](../recipes/simple-cauliflower-recipe--1qkojgst.md) — recipe-simple-cauliflower-recipe-1qkojgst — draft
+- [Simple Chicken Pot Pie](../recipes/simple-chicken-pot-pie--1bittpms.md) — recipe-simple-chicken-pot-pie-1bittpms — draft
+- [Simple Shrimp Scampi](../recipes/simple-shrimp-scampi--1fsrxmlb.md) — recipe-simple-shrimp-scampi-1fsrxmlb — draft
+- [Simple Summer Salad With Feta](../recipes/simple-summer-salad-with-feta--983867dc.md) — recipe-983867dc-247b-4285-8708-64aebb679da6 — draft
+- [Single Serving Pie in a Jar](../recipes/single-serving-pie-in-a-jar--1u-xfvj1.md) — recipe-single-serving-pie-in-a-jar-1u-xfvj1 — draft
+- [Skillet Chicken Pot Pie](../recipes/skillet-chicken-pot-pie--1ezo52nj.md) — recipe-skillet-chicken-pot-pie-1ezo52nj — draft
+- [Skillet Chicken Pot Pie with Biscuit Topping](../recipes/skillet-chicken-pot-pie-with-biscuit-topping--1dxjxndc.md) — recipe-skillet-chicken-pot-pie-with-biscuit-topping-1dxjxndc — draft
+- [Skillet Chicken with Broccoli, Ziti, and Asiago Cheese](../recipes/skillet-chicken-with-broccoli-ziti-and-asiago-cheese--1txj1gfv.md) — recipe-skillet-chicken-with-broccoli-ziti-and-asiago-cheese-1txj1gfv — draft
+- [Soft and Chewy Sugar Cookies](../recipes/soft-and-chewy-sugar-cookies--1q37x1ww.md) — recipe-soft-and-chewy-sugar-cookies-1q37x1ww — draft
+- [Spanakopita Kale Salad](../recipes/spanakopita-kale-salad--46cf2224.md) — recipe-46cf2224-48ed-4b8b-b6a5-1f9f16c235ec — draft
+- [Spinach and Feta Bread](../recipes/spinach-and-feta-bread--18ollb6-.md) — recipe-spinach-and-feta-bread-18ollb6- — draft
+- [Spinach and Feta Calzone](../recipes/spinach-and-feta-calzone--1cvgnvjk.md) — recipe-spinach-and-feta-calzone-1cvgnvjk — draft
+- [Sticky Pecan Caramel Rolls](../recipes/sticky-pecan-caramel-rolls--1nte4vo_.md) — recipe-sticky-pecan-caramel-rolls-1nte4vo_ — draft
+- [Stir Fry with Curry Sauce](../recipes/stir-fry-with-curry-sauce--1zh905yh.md) — recipe-stir-fry-with-curry-sauce-1zh905yh — draft
+- [Stir-Fried Beef and Broccoli With Oyster Sauce](../recipes/stir-fried-beef-and-broccoli-with-oyster-sauce--1jcbguy8.md) — recipe-stir-fried-beef-and-broccoli-with-oyster-sauce-1jcbguy8 — draft
+- [Strawberry Rhubarb Jam](../recipes/strawberry-rhubarb-jam--1vdjvcze.md) — recipe-strawberry-rhubarb-jam-1vdjvcze — draft
+- [Sugar Cookies](../recipes/sugar-cookies--1bunlwd7.md) — recipe-sugar-cookies-1bunlwd7 — draft
+- [Sun-Dried Tomato and Parmesan Bread](../recipes/sun-dried-tomato-and-parmesan-bread--1jfvafyv.md) — recipe-sun-dried-tomato-and-parmesan-bread-1jfvafyv — draft
+- [Sunflower Seed Breakfast Loaf](../recipes/sunflower-seed-breakfast-loaf--1vu2y3eu.md) — recipe-sunflower-seed-breakfast-loaf-1vu2y3eu — draft
+- [Sweet Potatoes With Tahini Butter](../recipes/sweet-potatoes-with-tahini-butter--becbd783.md) — recipe-becbd783-2fed-4bd1-8bde-0317d45fee81 — draft
+- [Taco Meat](../recipes/taco-meat--dcaf1374.md) — recipe-dcaf1374-a81e-45da-ba11-d66d3c2a2269 — draft
+- [Taco Salad](../recipes/taco-salad--175cye8d.md) — recipe-taco-salad-175cye8d — draft
+- [Tender and Juicy Pork Loin Roast Recipe](../recipes/tender-and-juicy-pork-loin-roast-recipe--86cf48b9.md) — recipe-86cf48b9-fd76-405e-b7d4-5a39e33104f8 — draft
+- [Thai Green Curry with Chicken, Broccoli, and Mushrooms](../recipes/thai-green-curry-with-chicken-broccoli-and-mushrooms--1wdcp3wt.md) — recipe-thai-green-curry-with-chicken-broccoli-and-mushrooms-1wdcp3wt — draft
+- [The Best Banana Bread](../recipes/the-best-banana-bread--1kcpnse1.md) — recipe-the-best-banana-bread-1kcpnse1 — draft
+- [The Ultimate No-Wilt Potluck Salad: Antipasto Grain Salad](../recipes/the-ultimate-no-wilt-potluck-salad-antipasto-grain-salad--a53780ac.md) — recipe-a53780ac-ce51-4ec3-b74e-6e9944dde418 — draft
+- [Thick, Chewy Oatmeal Raisin Cookies](../recipes/thick-chewy-oatmeal-raisin-cookies--1mcgd9fw.md) — recipe-thick-chewy-oatmeal-raisin-cookies-1mcgd9fw — draft
+- [Thin and Crisp Sugar Cookies](../recipes/thin-and-crisp-sugar-cookies--1cie2_qm.md) — recipe-thin-and-crisp-sugar-cookies-1cie2_qm — draft
+- [Three Cities of Spain Cheesecake](../recipes/three-cities-of-spain-cheesecake--1xjfikh_.md) — recipe-three-cities-of-spain-cheesecake-1xjfikh_ — draft
+- [Three Cities of Spain Cheesecake](../recipes/three-cities-of-spain-cheesecake--1xjfikn_.md) — recipe-three-cities-of-spain-cheesecake-1xjfikn_ — draft
+- [Toffee Bars](../recipes/toffee-bars--1wqkvki0.md) — recipe-toffee-bars-1wqkvki0 — draft
+- [Toll House Chocolate Chip Cookies](../recipes/toll-house-chocolate-chips--11gjf9nz.md) — recipe-toll-house-chocolate-chips-11gjf9nz — draft
+- [Tostadas](../recipes/tostadas--1jm8lho7.md) — recipe-tostadas-1jm8lho7 — draft
+- [Triple Chocolate Cheesecake](../recipes/triple-chocolate-cheesecake--16t2xyrb.md) — recipe-triple-chocolate-cheesecake-16t2xyrb — draft
+- [Unfussy Apple Cake](../recipes/unfussy-apple-cake--1kxpxbg2.md) — recipe-unfussy-apple-cake-1kxpxbg2 — draft
+- [Vegan BBQ Shredded Tofu](../recipes/vegan-bbq-shredded-tofu--aeefa4a4.md) — recipe-aeefa4a4-ac90-4ed7-be10-967758f80054 — draft
+- [Vegetarian Dumplings](../recipes/vegetarian-dumplings--1ncj7imz.md) — recipe-vegetarian-dumplings-1ncj7imz — draft
+- [Veggie Burgers](../recipes/veggie-burgers--1axye0pr.md) — recipe-veggie-burgers-1axye0pr — draft
+- [Whole Wheat Brioche](../recipes/whole-wheat-brioche--1agmfpyj.md) — recipe-whole-wheat-brioche-1agmfpyj — draft
+- [Whole Wheat Chocolate Chip Skillet Cookie](../recipes/whole-wheat-chocolate-chip-skillet-cookie--17rtj07s.md) — recipe-whole-wheat-chocolate-chip-skillet-cookie-17rtj07s — draft
+- [Whole Wheat Sandwich Bread (Inspired by Chris Kimball)](../recipes/whole-wheat-sandwich-bread-inspired-by-chris-kimball--124oxtc2.md) — recipe-whole-wheat-sandwich-bread-inspired-by-chris-kimball-124oxtc2 — draft
+- [Wild Rice Stuffed Sweet Potatoes](../recipes/wild-rice-stuffed-sweet-potatoes--d6e4d78d.md) — recipe-d6e4d78d-3439-4e93-8ee2-f645b8f7ebca — draft
+- [Winter Salad](../recipes/winter-salad--41eab4b5.md) — recipe-41eab4b5-039f-413d-88db-a7da9948538b — draft
+- [Yeast Rolls](../recipes/yeast-rolls--1gnkuexi.md) — recipe-yeast-rolls-1gnkuexi — draft
+- [Zucchini Chocolate Cake](../recipes/zucchini-chocolate-cake--1ai_its0.md) — recipe-zucchini-chocolate-cake-1ai_its0 — draft
