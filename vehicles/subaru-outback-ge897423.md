@@ -14,6 +14,8 @@ title: Subaru Outback 2.5i AWD (GE 897423)
 ## Observations
 - [decision] {date: 2008-03-31} Vehicle first registered in Switzerland
 - [decision] {date: 2020-02-21} Owner registration updated in Geneva
+- [decision] {date: 2020-07-30} Front brake pads replaced at 159,574 km at Garage des Vollandes SA
+- [decision] {date: 2024-03-20} Four tires/wheels installed at Annemasse Pneus
 - [decision] {date: 2025-11-03} Missed scheduled inspection appointment; 70 CHF fee refunded
 - [decision] {date: 2025-12-08} Completed routine inspection at Office cantonal des véhicules
 - [question] Follow-up required by 2026-01-16 for windshield repair/replacement verification (no appointment needed)
@@ -76,10 +78,17 @@ title: Subaru Outback 2.5i AWD (GE 897423)
 
 ## Insurance
 
-| Field                       | Value          |
-|-----------------------------|----------------|
-| **Insurer**                 | Allianz Suisse |
-| **Policy Number (Baloise)** | 040/8.236.197  |
+| Field                       | Value                      |
+|-----------------------------|----------------------------|
+| **Insurer**                 | Allianz Suisse (Coelvia)   |
+| **Policy Number**           | T30.5.577.411              |
+| **Policy Number (Baloise)** | 040/8.236.197              |
+| **Insured Value**           | CHF 40,800.00              |
+| **Liability Coverage**      | CHF 100,000,000.00         |
+| **Deductible**              | CHF 1,000.00               |
+| **Current Period**          | 02/21/2020 - 01/03/2021    |
+| **Annual Premium (Net)**    | CHF 62.00                  |
+| **Damage Protection Abroad**| Included                   |
 
 ## Emissions
 
@@ -88,6 +97,22 @@ title: Subaru Outback 2.5i AWD (GE 897423)
 ## Maintenance History
 
 ### Scheduled Maintenance
+
+#### March 20, 2024 - Tire Installation
+**Location:** Annemasse Pneus, 1 Rue des Artisans, 74100 Ville la Grand
+**Invoice:** 2020772
+**Cost:** CHF 40.00
+**Work Performed:**
+- Installation of 4 wheels/tires (POSE DE ROUE)
+
+#### July 30, 2020 - Front Brake Pad Replacement
+**Location:** Garage des Vollandes SA, Genève
+**Invoice:** 148424
+**Odometer:** 159,574 km
+**Cost:** CHF 303.30
+**Work Performed:**
+- Front brake pad replacement (REMPLACER PLAQUETTES DE FREINS AVANT)
+- Cleaning
 
 #### December 8, 2025 - Routine Inspection
 **Location:** Office cantonal des véhicules, Carouge
