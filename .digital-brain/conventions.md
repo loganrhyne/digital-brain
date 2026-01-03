@@ -124,6 +124,73 @@ These two tags serve complementary but distinct purposes:
 
 **Gray areas**: Routine maintenance at a default shop is an `[event]`; actively choosing Shop A over Shop B is a `[decision]`.
 
+### `[claim]` - Assertions with Epistemic Humility
+
+**`[claim]`** represents assertions or propositions about how things are/were - factual statements acknowledged as beliefs based on evidence, not absolute truths.
+
+**Key characteristics:**
+- **Atemporal**: Describes properties, characteristics, or states (not time-bound actions)
+- **Descriptive**: "This is true about X" rather than "X happened at time T"
+- **Verifiable**: Could theoretically be checked or disputed
+- **Humble**: Acknowledged as current understanding, open to revision
+
+**Dated vs Undated Claims:**
+
+**Undated** - Timeless assertions (as far as known):
+```markdown
+- [claim] Water boils at 100°C at sea level
+- [claim] {equipment: "24kg kettlebell"} Used 24kg for this workout
+- [claim] TypeScript provides compile-time type safety
+```
+
+**Dated** - Captures what was believed/understood at a specific point in time:
+```markdown
+- [claim] {date: 2024-01-15} The housing market will correct significantly in 2024
+- [claim] {date: 2024-06-20} Updated view: Market shows resilience due to supply constraints
+- [claim] {date: 2025-01-10} Swiss mortgage rates expected to drop below 2%
+```
+
+**Epistemic Evolution Tracking:**
+
+Dated claims enable tracking how understanding changes over time:
+```markdown
+## Investment Philosophy Evolution
+
+- [claim] {date: 2023-01-01} Index funds sufficient for all investors
+- [claim] {date: 2024-06-15} Some tactical tilts can add value with proper research
+- [claim] {date: 2025-01-10} Factor investing worth considering for long-term portfolios
+```
+
+**Decision-Adjacent Usage:**
+
+Dated claims are particularly valuable around decisions to preserve decision-time context:
+```markdown
+## Mortgage Rate Decision
+
+- [claim] {date: 2025-03-01} Fixed rates at 2.5%, variable at 1.8%
+- [claim] {date: 2025-03-01} SNB expected to cut rates twice in 2025
+- [decision] {date: 2025-03-15} Chose variable rate based on rate outlook
+- [claim] {date: 2025-09-01} Rates actually increased; retrospectively fixed would have been better
+```
+
+This pattern:
+- Documents what you knew when making the decision
+- Avoids judging past decisions by future knowledge
+- Preserves reasoning in original context
+- Shows how beliefs evolved after the decision
+
+**Distinction from `[event]`:**
+```markdown
+# Temporal fact (what happened)
+- [event] {date: 2026-01-02} Completed kettlebell workout
+
+# Atemporal properties (characteristics of that workout)
+- [claim] {equipment: "24kg kettlebell", rounds: 3} Three rounds with 24kg kettlebell
+- [claim] {warmup: "5 min stair machine"} Started with cardio warmup
+```
+
+**Timeline Impact:** Dated claims appear in timeline.md, showing evolution of understanding chronologically alongside events and decisions.
+
 ## Automatic Observation Indices
 
 The digital brain includes scripts to automatically extract and index specific observation types:
