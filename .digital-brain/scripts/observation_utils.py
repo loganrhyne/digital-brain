@@ -143,6 +143,95 @@ def collect_all_observations(repo_root: Path, observation_tag: str) -> list[dict
     return all_observations
 
 
+def extract_all_dated_observations_from_note(path: Path) -> list[dict]:
+    """Extract all observations with dates from a note file, regardless of tag type.
+
+    Args:
+        path: Path to the markdown note file
+
+    Returns:
+        List of observation dictionaries with text, date, tag, metadata, and source info
+    """
+    observations = []
+    frontmatter = parse_frontmatter(path)
+    if not frontmatter:
+        return observations
+
+    note_id = frontmatter.get("id", "")
+    note_title = frontmatter.get("title", path.stem.replace("-", " ").title())
+    note_type = frontmatter.get("type", "")
+    note_tags = frontmatter.get("tags", [])
+    note_created = frontmatter.get("created", "")
+
+    # Pattern to match any observation tag: [tag] {metadata} text
+    # Captures: tag name, metadata, observation text
+    pattern = re.compile(r"^-\s+\[([a-z-]+)\]\s*(?:\{([^}]+)\}\s*)?(.+)$")
+
+    # Read file content and look for observations
+    content = path.read_text(encoding="utf-8")
+    lines = content.splitlines()
+
+    for line in lines:
+        match = pattern.match(line.strip())
+        if match:
+            tag = match.group(1)
+            metadata_str = match.group(2)  # Could be None
+            observation_text = match.group(3)
+
+            metadata = parse_metadata(metadata_str) if metadata_str else {}
+
+            # Only include observations that have explicit dates
+            if "date" in metadata:
+                observation_date = metadata["date"]
+
+                observations.append({
+                    "tag": tag,
+                    "text": observation_text,
+                    "date": observation_date,
+                    "metadata": metadata,
+                    "source_note": {
+                        "id": note_id,
+                        "title": note_title,
+                        "type": note_type,
+                        "tags": note_tags,
+                        "path": path,
+                    }
+                })
+
+    return observations
+
+
+def collect_all_dated_observations(repo_root: Path) -> list[dict]:
+    """Scan all markdown files and collect all observations with explicit dates.
+
+    Args:
+        repo_root: Root directory of the repository
+
+    Returns:
+        List of all dated observations, sorted by date (most recent first)
+    """
+    all_observations = []
+
+    for path in sorted(repo_root.rglob("*.md")):
+        # Skip the .digital-brain infrastructure directory
+        if ".digital-brain" in path.parts:
+            continue
+
+        observations = extract_all_dated_observations_from_note(path)
+        all_observations.extend(observations)
+
+    # Sort by date (most recent first), then by source title (alphabetically)
+    # This ensures observations from the same source are adjacent
+    all_observations.sort(
+        key=lambda d: (
+            -(int(d["date"].replace("-", "")) if d["date"] and d["date"].replace("-", "").isdigit() else 0),
+            d["source_note"]["title"]
+        )
+    )
+
+    return all_observations
+
+
 def load_existing_created(index_path: Path) -> str | None:
     """Load creation date from existing index file."""
     if not index_path.exists():

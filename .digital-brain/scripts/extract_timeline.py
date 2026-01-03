@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Extract [event] observations from all notes and build a global timeline index."""
+"""Extract all dated observations from all notes and build a global timeline index."""
 from __future__ import annotations
 
 import datetime
@@ -7,7 +7,7 @@ from pathlib import Path
 
 from observation_utils import (
     FRONTMATTER_BOUNDARY,
-    collect_all_observations,
+    collect_all_dated_observations,
     load_existing_created,
 )
 
@@ -17,7 +17,7 @@ def build_timeline_index(repo_root: Path, index_path: Path) -> None:
     today = datetime.date.today().isoformat()
     created = load_existing_created(index_path) or today
 
-    events = collect_all_observations(repo_root, "event")
+    observations = collect_all_dated_observations(repo_root)
 
     lines: list[str] = [
         FRONTMATTER_BOUNDARY,
@@ -33,27 +33,28 @@ def build_timeline_index(repo_root: Path, index_path: Path) -> None:
         "",
         "# Timeline Index",
         "",
-        "Chronological index of all events tracked across the digital brain.",
+        "Chronological index of all dated observations tracked across the digital brain.",
         "",
     ]
 
-    if not events:
+    if not observations:
         lines.append("## Entries")
         lines.append("")
-        lines.append("No events recorded yet.")
+        lines.append("No dated observations recorded yet.")
     else:
         # Group by year-month for better organization
         current_period = None
 
-        for event in events:
-            event_date = event["date"]
-            event_text = event["text"]
-            source = event["source_note"]
+        for obs in observations:
+            obs_date = obs["date"]
+            obs_text = obs["text"]
+            obs_tag = obs["tag"]
+            source = obs["source_note"]
 
             # Extract year-month for grouping
-            if event_date:
+            if obs_date:
                 try:
-                    period = event_date[:7]  # YYYY-MM
+                    period = obs_date[:7]  # YYYY-MM
                     if period != current_period:
                         current_period = period
                         lines.append(f"## {period}")
@@ -70,17 +71,20 @@ def build_timeline_index(repo_root: Path, index_path: Path) -> None:
                     lines.append("## Undated")
                     lines.append("")
 
-            # Build the event entry
+            # Build the observation entry
             rel_path = source["path"].relative_to(repo_root).as_posix()
             link = Path("..") / rel_path
 
-            # Format: **Date** — **Event** — From [Note Title](path) — tags
+            # Format: **Date** — [tag] — **Observation** — From [Note Title](path) — tags
             entry_parts = []
 
-            if event_date:
-                entry_parts.append(f"**{event_date}**")
+            if obs_date:
+                entry_parts.append(f"**{obs_date}**")
 
-            entry_parts.append(event_text)
+            # Include the observation tag type
+            entry_parts.append(f"`[{obs_tag}]`")
+
+            entry_parts.append(obs_text)
 
             entry_parts.append(f"*From:* [{source['title']}]({link.as_posix()})")
 
