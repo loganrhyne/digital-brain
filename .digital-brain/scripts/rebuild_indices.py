@@ -139,8 +139,8 @@ def build_index(repo_root: Path, note_type: str, index_path: Path) -> None:
 
 
 def main() -> int:
-    repo_root = Path(__file__).resolve().parents[1]
-    indices_dir = repo_root / "indices"
+    repo_root = Path(__file__).resolve().parents[2]
+    indices_dir = repo_root / ".digital-brain" / "indices"
     indices_dir.mkdir(exist_ok=True)
 
     build_index(repo_root, "concept", indices_dir / "concepts.md")

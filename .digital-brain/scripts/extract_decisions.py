@@ -107,8 +107,8 @@ def collect_all_decisions(repo_root: Path) -> list[dict]:
     all_decisions = []
 
     for path in sorted(repo_root.rglob("*.md")):
-        # Skip the indices, templates, and _meta directories
-        if "indices" in path.parts or "templates" in path.parts or "_meta" in path.parts:
+        # Skip the .digital-brain infrastructure directory
+        if ".digital-brain" in path.parts:
             continue
 
         decisions = extract_decisions_from_note(path)
@@ -222,8 +222,8 @@ def build_decision_index(repo_root: Path, index_path: Path) -> None:
 
 def main() -> int:
     """Main entry point."""
-    repo_root = Path(__file__).resolve().parents[1]
-    indices_dir = repo_root / "indices"
+    repo_root = Path(__file__).resolve().parents[2]
+    indices_dir = repo_root / ".digital-brain" / "indices"
     indices_dir.mkdir(exist_ok=True)
 
     build_decision_index(repo_root, indices_dir / "decisions.md")

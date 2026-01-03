@@ -107,8 +107,8 @@ def validate_instance(instance, schema) -> list[str]:
 
 
 def main() -> int:
-    repo_root = Path(__file__).resolve().parents[1]
-    schema_path = repo_root / "_meta" / "relations.schema.json"
+    repo_root = Path(__file__).resolve().parents[2]
+    schema_path = repo_root / ".digital-brain" / "relations.schema.json"
     if not schema_path.exists():
         print(f"Schema not found: {schema_path}", file=sys.stderr)
         return 1

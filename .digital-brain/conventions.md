@@ -14,6 +14,47 @@ title: Repository Conventions
 ## Scope
 These conventions define required structure and formatting for the digital-brain repo.
 
+## Directory Structure
+
+### Organization Principles
+- **Flat top-level structure**: Top-level directories represent broad subject domains (content)
+- **Infrastructure separation**: All system files live under `.digital-brain/` (hidden from content view)
+- **No deep nesting**: Avoid subdirectories within content domains; use relationships and tags instead
+- **Domain-based**: Directories organized by subject area, not by document type
+
+### Content Domains
+Content lives in top-level directories by subject:
+- `concepts/` - Conceptual knowledge, definitions, frameworks
+- `finance/` - Financial decisions, analyses, planning
+- `fitness/` - Workout records, training plans, tracking
+- `journal/` - Daily entries, reflections, decisions
+- `media/` - External content consumption (books, articles, poetry, podcasts, videos)
+- `people/` - People notes and relationships
+- `projects/` - Project tracking and documentation
+- `recipes/` - Recipe collection
+
+### Infrastructure
+All non-content files live under `.digital-brain/`:
+- `conventions.md` - This file (governance rules)
+- `relations.schema.json` - Relationship validation schema
+- `indices/` - Auto-generated cross-cutting views
+- `scripts/` - Automation tooling
+- `templates/` - Note templates by type
+
+### Rationale
+**Decision** {date: 2026-01-03}: Adopted flat top-level structure over nested organization.
+
+**Why flat over nested:**
+- Simpler mental model: each domain is immediately visible
+- Reduces friction: no decisions about "when to nest" or "when to promote"
+- Better for growth: new domains added at top-level as needed
+- Relationships over hierarchy: notes connect via explicit relations, not folder structure
+
+**Why `.digital-brain/` for infrastructure:**
+- Clear visual separation of content from tooling
+- Follows `.git` convention (hidden but accessible)
+- Keeps top-level clean and focused on subject domains
+
 ## Core Rules
 - All .md files begin with YAML frontmatter containing id, type, status, created, updated, visibility.
 - Substantive notes include an Observations section with typed bullets.
