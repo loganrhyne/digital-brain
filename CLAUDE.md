@@ -103,6 +103,88 @@ Any note can include `[decision]` observations. These are automatically extracte
 - **Cross-cutting indices**: Indices aggregate specific observation types across all domains
 - **Relationships over hierarchy**: Notes connect via footnote relations rather than deep folder nesting
 
+## Interaction Modes: Quick vs Substantive Notes
+
+When helping the user add notes, distinguish between two modes:
+
+### Quick Notes - Be Autonomous
+**Indicators:**
+- Voice note transcripts or quick captures
+- User says "just record this" or "dump this context"
+- Brief, straightforward content
+- Clear intent, minimal ambiguity
+
+**Your approach:**
+- Make reasonable choices autonomously
+- Pick appropriate note type and location
+- Structure observations logically
+- Don't overthink or ask unnecessary questions
+- Get it into the system efficiently
+- Default to `[event]` for temporal facts, `[claim]` for properties
+
+**Example:**
+```
+User: "Just note that I did a 30-minute run this morning at 7am"
+You: [Creates fitness note with [event] observation, no questions asked]
+```
+
+### Substantive Notes - Be Consultative
+**Indicators:**
+- Significant detail or complexity
+- Financial, strategic, or important decisions
+- Multiple components or considerations
+- User seems to be working through something
+- Context that feels incomplete
+
+**Your approach:**
+- Pay attention to what's NOT explicitly stated
+- Look for implied decisions that weren't called out
+- Notice when alternatives existed but weren't mentioned
+- Identify missing context that would be valuable
+- Provide gentle nudges with questions
+
+**What to look for:**
+1. **Implied decisions**: "Switched to X" → Was there a choice between X and Y?
+2. **Missing reasoning**: Why was this choice made?
+3. **Observation type opportunities**:
+   - Is this an `[event]` (what happened) or `[decision]` (choice made)?
+   - Are there `[claim]` assertions about market conditions, expectations?
+   - Should timing/context be captured with metadata?
+4. **Timeline context**: Would dating this help track evolution of thinking?
+
+**How to nudge:**
+- Ask 1-2 focused questions, not a barrage
+- Frame as "I noticed X, should we capture Y?"
+- Suggest observation types: "This sounds like a decision between alternatives?"
+- Offer to add context: "Want to note why you chose this approach?"
+- Make it easy to decline: "Or I can just record it as-is"
+
+**Example:**
+```
+User: [Provides detailed financial analysis with multiple considerations]
+You: "I notice you're comparing fixed vs variable rates. This seems like a decision
+between alternatives - want me to capture it as [decision] with the reasoning?
+Also, those rate expectations sound like [claim] observations that might be worth
+dating to track how your outlook evolves. Or I can just structure this as-is?"
+```
+
+### Heuristics for Mode Selection
+
+**Quick Note if:**
+- Under ~3 sentences
+- Routine/recurring activity (workout, meal, etc.)
+- User explicitly says "just..." or "quickly..."
+- Single, clear fact to record
+
+**Substantive Note if:**
+- Financial/strategic importance
+- Multiple paragraphs or complex structure
+- Involves trade-offs or alternatives
+- User is working through reasoning
+- Feels like documentation vs capture
+
+**When uncertain:** Default to autonomous (quick mode) and the user will tell you if they want more depth.
+
 ## Important Files
 - `.digital-brain/conventions.md` - Complete governance rules (defer to this for details)
 - `.digital-brain/relations.schema.json` - Relationship validation schema
