@@ -14,6 +14,9 @@ title: Subaru Outback 2.5i AWD (GE 897423)
 ## Observations
 - [decision] {date: 2008-03-31} Vehicle first registered in Switzerland
 - [decision] {date: 2020-02-21} Owner registration updated in Geneva
+- [decision] {date: 2025-11-03} Missed scheduled inspection appointment; 70 CHF fee refunded
+- [decision] {date: 2025-12-08} Completed routine inspection at Office cantonal des véhicules
+- [question] Follow-up required by 2026-01-16 for windshield repair/replacement verification (no appointment needed)
 
 ## Vehicle Information
 
@@ -55,10 +58,12 @@ title: Subaru Outback 2.5i AWD (GE 897423)
 
 ## Inspections
 
-| Date       | Location   | Status |
-|------------|------------|--------|
-| 15.05.2019 | VD (Vaud)  | Passed |
-| 20.12.2022 | GE (Geneva)| Passed |
+| Date       | Location   | Status                          |
+|------------|------------|---------------------------------|
+| 15.05.2019 | VD (Vaud)  | Passed                          |
+| 20.12.2022 | GE (Geneva)| Passed                          |
+| 03.11.2025 | GE (Geneva)| Missed (fee refunded)           |
+| 08.12.2025 | GE (Geneva)| Conditional - follow-up by Jan 16|
 
 ## Owner Information
 
@@ -83,10 +88,34 @@ title: Subaru Outback 2.5i AWD (GE 897423)
 ## Maintenance History
 
 ### Scheduled Maintenance
-*No records yet - add maintenance records as they occur*
+
+#### December 8, 2025 - Routine Inspection
+**Location:** Office cantonal des véhicules, Carouge
+**Invoice:** 2500847689
+**Cost:** 70 CHF (Invoice: Facture No. 2500847689)
+**Findings:**
+- Windshield crack detected - requires repair or replacement
+- Wiper blades need replacement
+- Engine cleaning performed to identify small oil leak source
+
+**Action Required:** Return for follow-up inspection by January 16, 2026 (no appointment needed)
+
+#### November 3, 2025 - Missed Appointment
+**Original appointment:** 14:25
+**Fee:** 70 CHF (refunded)
+**Rescheduled:** December 8, 2025
 
 ### Repairs & Issues
-*No records yet - add repairs and issues as they occur*
+
+#### Windshield Crack (Identified: Dec 8, 2025)
+**Status:** Pending repair/replacement
+**Deadline:** Follow-up inspection by Jan 16, 2026
+**Notes:** Awaiting documentation upload
+
+#### Oil Leak (Identified: Dec 8, 2025)
+**Status:** Under investigation
+**Action Taken:** Engine cleaning performed to locate source
+**Notes:** Small leak identified; awaiting documentation upload
 
 ## Notes
 
