@@ -205,3 +205,7 @@ cython_debug/
 marimo/_static/
 marimo/_lsp/
 __marimo__/
+
+# Instapaper Integration
+.digital-brain/instapaper_config.json
+.digital-brain/instapaper_sync_state.json
