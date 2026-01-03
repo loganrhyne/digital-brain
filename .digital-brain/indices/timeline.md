@@ -16,7 +16,7 @@ Chronological index of all dated observations tracked across the digital brain.
 ## 2026-01
 
 - **2026-01-02** — `[decision]` — Added decision tracking framework to enable global indexing of decisions across all note types. — *From:* [2026-01-01](../journal/2026-01-01.md) — *Tags:* setup
-- **2026-01-02** — `[claim]` — Completed kettlebell circuit workout with comprehensive warmup — *From:* [Kettlebell Circuit at Big Sky Base](../fitness/fitness-2026-01-02-kettlebell-circuit.md) — *Tags:* fitness, strength, kettlebell, circuit, warmup
+- **2026-01-02** — `[event]` — Completed kettlebell circuit workout with comprehensive warmup — *From:* [Kettlebell Circuit at Big Sky Base](../fitness/fitness-2026-01-02-kettlebell-circuit.md) — *Tags:* fitness, strength, kettlebell, circuit, warmup
 - **2026-01-01** — `[decision]` — Initialized the digital-brain repo structure. — *From:* [2026-01-01](../journal/2026-01-01.md) — *Tags:* setup
 - **2026-01-01** — `[decision]` — Helen will fund her Swiss 2nd Pillar for 30,000 CHF in 2025, under the assumption that any 2nd pillar funds can be used against the second half of a Swiss mortgage down payment without withdrawing them. — *From:* [Swiss 2nd Pillar Pension Funding Decision for Mortgage](../finance/swiss-2nd-pillar-funding.md) — *Tags:* finance, pension, switzerland, mortgage, 2nd-pillar
 - **2026-01-01** — `[decision]` — I will NOT fund my 2nd pillar because those funds are available for actual withdrawal to use for the second 10% of the down payment, having made no additional "buy-in" payments in the past three years. — *From:* [Swiss 2nd Pillar Pension Funding Decision for Mortgage](../finance/swiss-2nd-pillar-funding.md) — *Tags:* finance, pension, switzerland, mortgage, 2nd-pillar
